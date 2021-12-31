@@ -27,6 +27,8 @@ if (time > 18 && time < 24) {
 }
 
 ReactDOM.render(
-  <h1 style={{ color: colors }}>Good {timing}</h1>,
+  <h1 className="heading" style={{ color: colors }}>
+    Good {timing}
+  </h1>,
   document.getElementById("root")
 );
